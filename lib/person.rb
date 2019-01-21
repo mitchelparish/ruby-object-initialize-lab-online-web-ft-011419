@@ -1,13 +1,13 @@
 class Person
-  def initialize(breed)
-    @breed = breed
+  def initialize(person)
+    @person = person
   end
 
-  def breed=(breed)
-    @breed = breed
+  def person=(person)
+    @person = person
   end
 
-  def breed
-    @breed
+  def person
+    @person
   end
 end
