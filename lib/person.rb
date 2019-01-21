@@ -1,13 +1,13 @@
 class Person
-  def initialize(person)
-    @person = person
+  def initialize(name)
+    @name = name
   end
 
-  def person=(person)
-    @person = person
+  def name=(name)
+    @name = name
   end
 
-  def person
-    @person
+  def name
+    @name
   end
 end
